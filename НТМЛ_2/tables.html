@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Tables</title>
+</head>
+<body>
+    <table border="1" cellspacing="0" width="500">
+        <tr align="center">
+            <th>№</th>
+            <th>
+                <table border="0" cellspacing="0" width="500" rules="rows">
+                    <tr align="center">
+                        <th>теги</th> 
+                    </tr>
+                    <tr></tr>
+                </table>
+                <table border="0" cellspacing="0" width="500" rules="cols"> 
+                    <tr align="center">
+                        <th>тег</th>
+                        <th>значення</th>
+                    </tr>
+                </table>
+            </th>
+        </tr>
+    </table>
+    <table border="1" cellspacing="0" width="526"> 
+        <tr align="center">
+            <td width="16">1</td>
+            <td width="131">p</td>
+            <td rowspan="4">для тексту</td>
+        </tr>
+        <tr align="center">
+            <td width="16">2</td>
+            <td width="131">a</td>
+        </tr>
+        <tr align="center">
+            <td width="16">3</td>
+            <td width="131">b</td>
+        </tr>
+        <tr align="center">
+            <td width="16">4</td>
+            <td width="131">i</td>
+        </tr>
+        <tr align="center">
+            <td width="16">5</td>
+            <td width="131" align="left">table</td>
+            <td align="left">для тексту</td>
+        </tr>
+        <tr align="center">
+            <td width="16">6</td>
+            <td width="131" align="left">tr</td>
+            <td align="left">рядок таблиці</td>
+        </tr>
+        <tr align="center">
+            <td width="16">7</td>
+            <td width="131" align="left">td</td>
+            <td rowspan="2" align="left">комірка таблиці</td>
+        </tr>
+        <tr align="center">
+            <td width="16">8</td>
+            <td width="131" align="left">th</td>
+        </tr>
+    </table>
+    <br><br>
+
+    <table border="1" cellspacing="0" width="526">
+        <tr>
+            <th align="left" bgcolor="yellow">№</th>
+            <th align="left" bgcolor="yellow"> ПІБ студента</th>
+            <th align="left" bgcolor="yellow"> Адреса</th>
+            <th align="left" bgcolor="yellow"> Телефон</th>
+        </tr>
+        <tr>
+            <td bgcolor="rgb(blue)">1</td>
+            <td>Петров І.В</td>
+            <td>Адреса 1</td>
+            <td>+30506663232</td>
+        </tr>
+        <tr>
+            <td bgcolor="rgb(blue)">2</td>
+            <td>Сидоров П.А</td>
+            <td>Адреса 2</td>
+            <td>+30505553232</td>
+        </tr>
+        <tr>
+            <td bgcolor="rgb(blue)">3</td>
+            <td>Козачук А.Р</td>
+            <td>Адреса 3</td>
+            <td>+30507773232</td>
+        </tr>
+        <tr>
+            <td bgcolor="rgb(blue)">4</td>
+            <td>Карпатський О.Д</td>
+            <td>Адреса 4</td>
+            <td>+30501113232</td>
+        </tr>
+        <tr>
+            <td bgcolor="green" colspan="3"><strong>Загальна кількість</strong></td>
+            <td bgcolor="green"><strong>4</strong></td>
+        </tr>
+    </table>
+    <br><br>
+    <table border="1" bordercolor="rgb(blue)" cellspacing="5" cellpadding="5" width="526">
+        <font color="rgb(blue)"><tr><td><font color="rgb(blue)">Company</font></td> <td><font color="rgb(blue)">Q1</font></td> <td><font color="rgb(blue)">Q2</font></td> <td><font color="rgb(blue)">Q3</font></td></tr>
+        <tr><td><font color="rgb(blue)">Microsoft</font></td> <td><font color="rgb(blue)">20.3</font></td> <td><font color="rgb(blue)">30.5</font></td></tr>
+        <tr><td><font color="rgb(blue)">Google</font></td> <td><font color="rgb(blue)">50.2</font></td> <td><font color="rgb(blue)">40.63</font></td> <td><font color="rgb(blue)">45.23</font></td></tr>
+    </table>
+    <br><br>
+    <table border="1" bordercolor="red" cellspacing="0" width="256">
+        <tr bgcolor="blue"><td  colspan="5" ><font color="orange">Шапка</font></td></tr>
+        <tr bgcolor="beige"><td><font color="black">Меню</font></td><td><font color="black">Меню</font></td><td><font color="black">Меню</font></td><td><font color="black">Меню</font></td><td><font color="black">Меню</font></td></tr>
+        <tr><td height="100" colspan="2" bgcolor="blue" valign="top"><font color="beige">Новини</font></td> <td valign="top" rowspan="4" height="100" colspan="3" bgcolor="beige"><font color="black">Контент</font></td> </tr>
+    </table>
+    <br><br>
+    <table border="1" bordercolor="rgb(yellow)" cellspacing="0" width="256">
+        <tr bgcolor="green"><td height="30"><font color="rgb(yellow)">Шапка</font></td><td bgcolor="yellow" rowspan="2"><font color="green">Шапка</font></td></tr>
+        <tr bgcolor="beige"><td height="100"><font color="black">Меню</font></td></tr>
+        <tr><td colspan="2" bgcolor="green" valign="top"><font color="rgb(yellow)">Новини</font></td></tr>
+    </table>
+    <br><br>
+    <table border="1" bordercolor="red" cellspacing="0" width="256">
+        <tr bgcolor="purple"><td rowspan="3" height="20" align="center"><font color="beige">Новини</font></td><td bgcolor="pink" ><font color="purple">Шапка</font></td></tr>
+        <tr bgcolor="#ff91fd"><td ><font color="purple">Меню</font></td></tr>
+        <tr><td colspan="2" bgcolor="beige" valign="top" height="100"><font color="black">Новини</font></td></tr>
+    </table>
+</body>
+</html>
